@@ -1,0 +1,31 @@
+containers:
+  default:
+    docker: circleci/ruby:2.6
+
+shared:
+  defaults: &defaults
+    timeout: 5m
+
+steps:
+  - <<: *defaults
+    label: Prepare dependencies
+    run:
+      - gem install bundler
+      - bundle: ~
+
+  # wait for dependencies
+  - wait
+
+  - <<: *defaults
+    label: ':ruby: Lint'
+    run:
+      - bundle: ~
+      - bundle exec rubocop
+
+  - <<: *defaults
+    label: ':ruby: Tests'
+    run:
+      - bundle: ~
+      - bundle exec rake
+    artifact_paths:
+      - coverage

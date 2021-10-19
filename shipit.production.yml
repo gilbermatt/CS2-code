@@ -1,0 +1,8 @@
+deploy:
+    override:
+      - rm -rf .bundle/config
+      - BUNDLE_GEMFILE=.blaast/Gemfile.deploy bundle install
+      - BUNDLE_GEMFILE=.blaast/Gemfile.deploy bundle exec blaast deploy ${SHA}
+ci:
+  require:
+    - buildkite/blaast-template-base-production-builder

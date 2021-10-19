@@ -1,0 +1,4 @@
+.blaast/vendor
+.bundle
+coverage
+vendor

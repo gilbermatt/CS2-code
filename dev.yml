@@ -1,0 +1,30 @@
+name: blaast-template-base
+type: ruby
+
+env:
+  GOOGLE_AUTH_SUPPRESS_CREDENTIALS_WARNINGS: "1"
+  RACK_ENV: development
+  
+up:
+- ruby: 2.6.6
+- bundler
+- gcloud:
+    components:
+    - core
+    - beta
+- custom:
+    name: Google Cloud Auth
+    met?: test -f ~/.config/gcloud/application_default_credentials.json
+    meet: gcloud auth application-default login
+
+server:
+  desc: Run on port 8080
+  run: bundle exec blaast off
+
+commands:
+  lint: bundle exec rubocop
+  test:
+    syntax:
+      argument: FILE_NAME
+    run: |
+      if [[ $# -eq 0 ]]; then bundle exec rake; else bundle exec rake test TEST="$@"; fi

@@ -1,0 +1,2 @@
+source 'https://rubygems.org'
+gem 'blaast-deploy', '~> 2.1', source: 'https://packages.shopify.io/shopify/gems'
