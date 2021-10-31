@@ -1,0 +1,71 @@
+
+matthewgilbert@Matthews-MacBook-Pro .vscode % ./wordcount
+Type a random load of nonsense right here:
+
+The C language was born with the Unix operating system.
+
+**************************************************************
+
+The longest word you entered was: 9
+You entered this many words: 10
+The largest number of vowels in a word was: 4
+
+
+
+**************************************************************
+
+matthewgilbert@Matthews-MacBook-Pro .vscode % ./wordcount
+Type a random load of nonsense right here:
+
+
+
+**************************************************************
+
+You didn't enter anything at all! Please try again!
+
+
+
+**************************************************************
+
+matthewgilbert@Matthews-MacBook-Pro .vscode % ./wordcount
+Type a random load of nonsense right here:
+
+Sometimes that's just the way it has to be. Sure, there were probably other options, but he didn't let them enter his mind. It was done and that was that. It was just the way it had to be. They had made it to Las Vegas, wide-eyed and with so much hope and energy. They had planned the trip for more than a year and both were so excited they could barely control themselves. They still hadn't realized that Las Vegas promised a place where dreams come true, it was actually the place where dreams came to die.
+
+**************************************************************
+
+The longest word you entered was: 10
+You entered this many words: 98
+The largest number of vowels in a word was: 4
+
+
+
+**************************************************************
+
+matthewgilbert@Matthews-MacBook-Pro .vscode % ./wordcount
+Type a random load of nonsense right here:
+
+Sometimes that's just the way it has to be. Sure, there were probably other options, but he didn't let them enter his mind. It was done and that was that. It was just the way it had to be.               They had made it to Las Vegas, wide-eyed and with so much hope and energy.           They had planned the trip for more than a year and both were so excited they could barely control themselves. They still hadn't realized that Las Vegas promised a place where dreams come true, it was actually the place where dreams came to die.
+
+**************************************************************
+
+The longest word you entered was: 10
+You entered this many words: 98
+The largest number of vowels in a word was: 4
+
+
+
+**************************************************************
+
+matthewgilbert@Matthews-MacBook-Pro .vscode % ./wordcount
+Type a random load of nonsense right here:
+
+Dragons don't 1 exist they said. They 3333 are the stuff of legend and people's imagination. Greg would have agreed with this assessment without a second thought 24 hours ago. But now that there was a dragon staring directly into his eyes, he questioned everything that he had been told!!!!!!!!!!!!!!!!!!!!!!! 
+
+**************************************************************
+
+The longest word you entered was: 11
+You entered this many words: 47
+The largest number of vowels in a word was: 6
+
+**************************************************************
