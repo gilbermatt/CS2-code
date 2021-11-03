@@ -7,7 +7,7 @@ using namespace std;
 int main(int argc, char** argv) {
   
   for (int row = 1; row <= 5; row++){
-      for (int hashnum = 1; hashnum <= row; hashnum++){
+      for (int hashnum = 1; hashnum < row; hashnum++){
         cout << ' ';
       } 
       for (int hashnum = 1; hashnum <= row; hashnum++){
@@ -27,7 +27,7 @@ int main(int argc, char** argv) {
       cout << endl;
   }
     for (int row = 5; row >= 0; row--){
-      for (int hashnum = 1; hashnum <= row; hashnum++){
+      for (int hashnum = 1; hashnum < row; hashnum++){
         cout << ' ';
       } 
       for (int hashnum = 1; hashnum <= row; hashnum++){
